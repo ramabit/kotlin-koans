@@ -1,7 +1,7 @@
 package i_introduction._4_Lambdas
 
-import org.junit.Test
 import org.junit.Assert
+import org.junit.Test
 
 class _04_Lambdas() {
     @Test fun contains() {

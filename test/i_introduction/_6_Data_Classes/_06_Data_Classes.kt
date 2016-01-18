@@ -1,8 +1,7 @@
 package i_introduction._6_Data_Classes
 
-import kotlin.test.*
-import org.junit.Test
 import org.junit.Assert
+import org.junit.Test
 
 
 public class _06_Data_Classes {

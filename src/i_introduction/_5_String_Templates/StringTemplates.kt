@@ -1,6 +1,5 @@
 package i_introduction._5_String_Templates
 
-import android.util.Log
 import util.TODO
 import util.doc5
 

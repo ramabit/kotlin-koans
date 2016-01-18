@@ -1,8 +1,7 @@
 package i_introduction._1_Java_To_Kotlin_Converter
 
-import kotlin.test.*
-import org.junit.Test
 import org.junit.Assert
+import org.junit.Test
 
 class _01_Functions() {
     @Test fun collection() {

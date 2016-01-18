@@ -1,8 +1,7 @@
 package i_introduction._5_String_Templates
 
-import kotlin.test.*
-import org.junit.Test
 import org.junit.Assert
+import org.junit.Test
 import java.util.regex.Pattern
 
 class _05_String_Templates() {

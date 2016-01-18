@@ -2,6 +2,7 @@ package i_introduction._7_Nullable_Types;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
 import util.JavaCode;
 
 public class JavaCode7 extends JavaCode {

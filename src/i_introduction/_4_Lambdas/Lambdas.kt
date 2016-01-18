@@ -23,7 +23,7 @@ fun todoTask4(collection: Collection<Int>): Nothing = TODO(
 
 fun task4(collection: Collection<Int>): Boolean {
     val check: (Int) -> Boolean = { number -> number % 42 == 0 }
-    return collection.any{check(it)}
+    return collection.any { check(it) }
 }
 
 
