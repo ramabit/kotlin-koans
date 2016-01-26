@@ -1,7 +1,8 @@
 package i_introduction._9_Extension_Functions
 
-import org.junit.Assert.assertEquals
 import org.junit.Test
+import org.junit.Assert.assertEquals
+
 
 class _09_Extension_Functions() {
     @Test fun testIntExtension() {
