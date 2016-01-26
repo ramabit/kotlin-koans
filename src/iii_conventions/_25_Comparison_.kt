@@ -1,5 +1,6 @@
 package iii_conventions
 
+import iii_conventions.test.s
 import util.*
 
 fun todoTask25(): Nothing = TODO(
@@ -14,7 +15,9 @@ fun todoTask25(): Nothing = TODO(
 )
 
 fun task25(date1: MyDate, date2: MyDate): Boolean {
-    todoTask25()
-//    return date1 < date2
+    var yearly = date1.year < date2.year
+    var monthly = date1.year == date2.year && date1.month < date2.month
+    var daily = date1.year == date2.year && date1.month == date2.month && date1.dayOfMonth < date2.dayOfMonth
+    return yearly || monthly || daily
 }
 
