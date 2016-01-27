@@ -32,3 +32,17 @@ class MyIterator(val start: MyDate, val endInclusive: MyDate) : Iterator<MyDate>
 
 operator fun DateRange.contains(d: MyDate): Boolean = task25(start, d) && task25(d, endInclusive)
 
+class RepeatedTimeInterval(val ti: TimeInterval, val n: Int)
+
+operator fun TimeInterval.times(n: Int): RepeatedTimeInterval{
+    return RepeatedTimeInterval(this, n)
+}
+
+operator fun MyDate.plus(timeInterval: TimeInterval): MyDate{
+    return this.addTimeIntervals(timeInterval, 1)
+}
+
+operator fun MyDate.plus(repeatedTimeInterval: RepeatedTimeInterval): MyDate{
+    return this.addTimeIntervals(repeatedTimeInterval.ti, repeatedTimeInterval.n)
+}
+
